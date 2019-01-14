@@ -25,26 +25,6 @@
     z-index: 2;
 }
 
-#id_footer {
-    height: 250px;
-    width: 75%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    bottom: 0;
-    background-color: rgb(88, 88, 88);
-    box-shadow: 3px 3px 12px rgba(7, 7, 7, 0.267);
-}
-
-#id_footer a {
-    text-decoration: none;
-    color: black;
-}
-
-#id_footer a:hover {
-    text-decoration: underline;
-    color: gray;
-}
-
 .member {
     margin-top: 50px;
 }
@@ -91,46 +71,64 @@
     text-decoration: underline;
 }
 
-#div31 {
-    float: left;
-    width: 65px;
-    height: 105px;
-    margin-left: 80px;
-    margin-top: 40px;
-    font-size: 13px;
-}
-
-#div32 {
-    float: left;
-    width: 350px;
-    height: 100px;
-    margin-left: 50px;
-    margin-top: 60px;
-    font-size: 13px;
-}
-
-#div33 {
-    float: left;
-    width: 60px;
-    height: 100px;
-    margin-left: 50px;
-    margin-top: 55px;
-    font-size: 13px;
-}
-
-#div34 {
-    float: left;
-    width: 350px;
-    height: 100px;
-    margin-left: 50px;
-    margin-top: 60px;
-    font-size: 13px;
-}
-
-#div35 {
+.footer {
+    height: 350px;
     margin: 0 auto;
-    width: 700px;
-    height: 100px;
-    margin-top: 40px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    bottom: 0;
+    background-color: rgba(56, 56, 56, 0.801);
+    box-shadow: 3px 3px 12px rgba(7, 7, 7, 0.267);
+}
+
+.footer .col-sm-1 {
+    margin-top: 50px;
+}
+
+.footer .col-sm-4 {
     font-size: 13px;
+    margin-top: 80px;
+}
+
+.footer .col-sm-4 a {
+    color: black;
+}
+
+.footer .col-sm-4 a:hover {
+    text-decoration: underline;
+    background-color: #fafafa;
+    color: rgb(179, 179, 179);
+}
+
+.footer .col-sm-5 {
+    font-size: 13px;
+    margin-top: 80px;
+}
+
+.footer .col-sm-5 a:hover {
+    text-decoration: underline;
+    background-color: #fafafa;
+    color: rgb(179, 179, 179);
+}
+
+.footer .col-sm-5 a {
+    color: black;
+}
+
+.content {
+    margin: 0 auto;
+    font-size: 13px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.content a p {
+    color: black;
+}
+
+.content a:hover {
+    text-decoration: underline;
+    background-color: #fafafa;
+    color: rgb(179, 179, 179);
 }
